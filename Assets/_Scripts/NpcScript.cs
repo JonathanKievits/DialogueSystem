@@ -10,7 +10,7 @@ public class NpcScript : MonoBehaviour
     private Dialogue dia;
     private GameObject dia_window;
     private GameObject node_txt;
-    private GameObject npcName_txt;
+    //private GameObject npcName_txt;
     private GameObject option_1;
     private GameObject option_2;
     private GameObject option_3;
@@ -34,7 +34,7 @@ public class NpcScript : MonoBehaviour
         dia_window_tansform.localPosition = new Vector3(0,0,0);
 
         node_txt = GameObject.Find("DiaNodeText");
-        npcName_txt = GameObject.Find("NpcName");
+        //npcName_txt = GameObject.Find("NpcName");
         option_1 = GameObject.Find("Option1");
         option_2 = GameObject.Find("Option2");
         option_3 = GameObject.Find("Option3");

@@ -2,71 +2,70 @@
 <Dialogue>
   <Nodes>
     
-    <DialogueNode>
-      <NodeID>0</NodeID>
-      <Text>Oh hello there stranger.</Text>
-      <Options>
-        <DialogueOption>
-          <Text>Hello.</Text>
-          <DestinationNodeID>2</DestinationNodeID>
-        </DialogueOption>
-        <DialogueOption>
-          <Text>Goodbye.</Text>
-          <DestinationNodeID>1</DestinationNodeID>
-        </DialogueOption>
-      </Options>
-    </DialogueNode>
+      <DialogueNode>
+        <NodeID>0</NodeID>
+        <Text>Oh hello there stranger.</Text>
+        <Options>
+          <DialogueOption>
+            <Text>Hello.</Text>
+            <DestinationNodeID>2</DestinationNodeID>
+          </DialogueOption>
+          <DialogueOption>
+            <Text>Goodbye.</Text>
+            <DestinationNodeID>1</DestinationNodeID>
+          </DialogueOption>
+        </Options>
+      </DialogueNode>
 
-    <DialogueNode>>
-      <NodeID>1</NodeID>
-      <Text>Okay, goodbye.</Text>
-      <Options>
-        <DialogueOption>
-          <Text>Exit.</Text>
-          <DestinationNodeID>-1</DestinationNodeID>
-        </DialogueOption>
-      </Options>
-    </DialogueNode>
+      <DialogueNode>
+        <NodeID>1</NodeID>
+        <Text>Okay, goodbye.</Text>
+        <Options>
+          <DialogueOption>
+            <Text>Exit.</Text>
+            <DestinationNodeID>-1</DestinationNodeID>
+          </DialogueOption>
+        </Options>
+      </DialogueNode>
 
-    <DialogueNode>
-      <NodeID>2</NodeID>
-      <Text>What do you need stranger?</Text>
-      <Options>
-        <DialogueOption>
-          <Text>I need to know where the castle is.</Text>
-          <DestinationNodeID>3</DestinationNodeID>
-        </DialogueOption>
-        <DialogueOption>
-          <Text>I need to know where the blacksmith is.</Text>
-          <DestinationNodeID>3</DestinationNodeID>
-        </DialogueOption>
-        <DialogueOption>
-          <Text>I need to know where the pub is.</Text>
-          <DestinationNodeID>3</DestinationNodeID>
-        </DialogueOption>
-        <DialogueOption>
-          <Text>Goodbye.</Text>
-          <DestinationNodeID>1</DestinationNodeID>
-        </DialogueOption>
-      </Options>
-    </DialogueNode>
+      <DialogueNode>
+        <NodeID>2</NodeID>
+        <Text>What do you need stranger?</Text>
+        <Options>
+          <DialogueOption>
+            <Text>I need to know where the castle is.</Text>
+            <DestinationNodeID>3</DestinationNodeID>
+          </DialogueOption>
+          <DialogueOption>
+            <Text>I need to know where the blacksmith is.</Text>
+            <DestinationNodeID>3</DestinationNodeID>
+          </DialogueOption>
+          <DialogueOption>
+            <Text>I need to know where the pub is.</Text>
+            <DestinationNodeID>3</DestinationNodeID>
+          </DialogueOption>
+          <DialogueOption>
+            <Text>Goodbye.</Text>
+            <DestinationNodeID>1</DestinationNodeID>
+          </DialogueOption>
+        </Options>
+      </DialogueNode>
 
-    <DialogueNode>
-      <NodeID>3</NodeID>
-      <Text>Oh you need to follow the path to the right from here.</Text>
-      <Options>
-        <DialogueOption>
-          <Text>Thank you, goodbye.</Text>
-          <DestinationNodeID>1</DestinationNodeID>
-        </DialogueOption>
-      </Options>
-    </DialogueNode>
+      <DialogueNode>
+        <NodeID>3</NodeID>
+        <Text>Oh you need to follow the path to the right from here.</Text>
+        <Options>
+          <DialogueOption>
+            <Text>Thank you, goodbye.</Text>
+            <DestinationNodeID>1</DestinationNodeID>
+          </DialogueOption>
+        </Options>
+      </DialogueNode>
+
+
+
 
     
-
-    
-    
-
       <DialogueNode>
         <NodeID>4</NodeID>
         <Text>Heya there stranger.</Text>
@@ -116,16 +115,16 @@
         </Options>
       </DialogueNode>
 
-    <DialogueNode>
-      <NodeID>7</NodeID>
-      <Text>Oh you have to follow the path that goes down.</Text>
-      <Options>
-        <DialogueOption>
-          <Text>Okay thank you, goodbye.</Text>
-          <DestinationNodeID>5</DestinationNodeID>
-        </DialogueOption>
-      </Options>
-    </DialogueNode>
+      <DialogueNode>
+        <NodeID>7</NodeID>
+        <Text>Oh you have to follow the path that goes down.</Text>
+        <Options>
+          <DialogueOption>
+            <Text>Okay thank you, goodbye.</Text>
+            <DestinationNodeID>5</DestinationNodeID>
+          </DialogueOption>
+        </Options>
+      </DialogueNode>
 
   </Nodes>
 </Dialogue>
